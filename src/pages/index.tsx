@@ -6,6 +6,7 @@ import { Countdown } from '../components/Countdown'
 import Head from 'next/head'
 
 import styles from '../styles/components/Home.module.css'
+import { ChallangerBox } from '../components/ChallangerBox'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
           <CompletedChallanger />
           <Countdown />
         </div>
+          <ChallangerBox />
         <div>
 
         </div>
