@@ -1,4 +1,5 @@
 <img src="https://ik.imagekit.io/lrjseyuxi3m/readme/Moveit-cover-min_46zgNRLBd6.png">
+
 ---
 ## Índice
 - [Sobre](#-sobre)
@@ -8,7 +9,7 @@
 - [Agradecimentos](#-agradecimentos)
 
 ## Sobre
-É comum **desenvolvedores** em geral passarem longas jornadas sentados à **frente de seus computadores**. <br/>
+É comum **desenvolvedores** em geral, passarem longas jornadas sentados à **frente de seus computadores**. <br/>
 Esta prática pode se tornar um **problema** caso o indivíduo não dê **pequenas pausas** para descansar tanto seu **corpo** quanto sua **mente**. <br/>
 O **moveit** é um **web app** que propõe pequenos e rápidos **desafios**, em um determinado **intervalo de tempo**.<br/>
 Para **cativar** ainda mais o usuário, o **moveit** possui um sistema de **experiência** e **níveis**, simulando um **jogo de RPG**.
@@ -28,7 +29,7 @@ Para **cativar** ainda mais o usuário, o **moveit** possui um sistema de **expe
     <br/>
     <img src="https://ik.imagekit.io/lrjseyuxi3m/readme/Novo-desafio_CJq4kb5HKr.gif" height="350px">
 
-- Caso você **completar** o **desafio**, ganha **experiência** e avança seu **nível**
+- Caso você **completar** o **desafio**, ganhe **experiência** e avança de **nível**
     <br/>
     <img src="https://ik.imagekit.io/lrjseyuxi3m/readme/Desafio-completo_Al7kuOvBjg.gif" height="350px">
 
@@ -39,20 +40,24 @@ Para **cativar** ainda mais o usuário, o **moveit** possui um sistema de **expe
 ## Baixar o projeto
 ```bash
     # Baixando o projeto
-    $ git clone ...
+    $ git clone https://github.com/patrickrios/moveit
 ```
 ```bash
     # Mudando para o diretório do projeto
-    $ cd ...
+    $ cd moveit
 ```
 ```bash
     # Instalando as dependências
-    $ yarn install ...
+    $ yarn install
 ```
 ```bash
     # Executando o projeto
     $ yarn dev
 ```
+
+Após inicar o projeto, acesse a url no navegador:
+
+<img src="https://ik.imagekit.io/lrjseyuxi3m/readme/server-start_hG4he-H4JH.png" >
 
 ## Agradecimentos
 Este projeto foi desenvolvido durante a semana NLW4 promovido pela [Rocketseat](https://rocketseat.com.br/).
