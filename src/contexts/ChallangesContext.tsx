@@ -2,6 +2,7 @@ import { ReactNode, createContext, useState, useEffect } from 'react'
 import challanges from '../../challenges.json'
 import Cookies from 'js-cookie'
 import { LevelUpModal } from '../components/LevelUpModal'
+import styles from '../styles/components/ChallangerBox.module.css'
 
 interface Chellange {
     type: 'body' | 'eye';
@@ -15,6 +16,7 @@ interface ChallengesContextDatas{
     challengesCompleted: number; 
     activeChallenge: Chellange;
     experienceToNextLevel: number;
+    displayMobile: string;
     levelUp: () => void;
     startNewChallanger: () => void;
     resetChallange: ()=> void;
@@ -43,6 +45,8 @@ export function ChallengesProvider( {
     const [activeChallenge, setActiveChallenge] = useState(null)
     const [isLeveModalOpen, setIsLevelModalOpen] = useState(false)
 
+    const [displayMobile, setDisplayMobile] = useState(styles.challengeToggleMobile)
+
     function levelUp(){
         setLevel( level+1 )
         setIsLevelModalOpen(true)
@@ -63,10 +67,12 @@ export function ChallengesProvider( {
                 body: `valendo ${challenge.amount} xp!`
             })
         }
+        setDisplayMobile('')
     }
 
     function resetChallange(){
         setActiveChallenge(null)
+        setDisplayMobile(styles.challengeToggleMobile)
     }
 
     function completeChallange(){
@@ -85,6 +91,7 @@ export function ChallengesProvider( {
         setCurrentExp(finalExperience)
         setActiveChallenge(null)
         setChallengesComplete( challengesCompleted + 1)
+        setDisplayMobile(styles.challengeToggleMobile)
     }
 
     const experienceToNextLevel = Math.pow( (level+1)*4,2)
@@ -107,6 +114,7 @@ export function ChallengesProvider( {
                 challengesCompleted, 
                 activeChallenge,
                 experienceToNextLevel,
+                displayMobile,
                 levelUp,
                 startNewChallanger,
                 resetChallange,

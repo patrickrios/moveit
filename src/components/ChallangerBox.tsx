@@ -4,7 +4,7 @@ import { CountdownContext } from '../contexts/CountdownContext'
 import styles from '../styles/components/ChallangerBox.module.css'
 
 export function ChallangerBox(){
-    const { activeChallenge, resetChallange, completeChallange } = useContext(ChallengesContext)
+    const { activeChallenge, displayMobile, resetChallange, completeChallange } = useContext(ChallengesContext)
     const { resetCountdown } = useContext(CountdownContext)
 
     function handleChallengeSucceeded(){
@@ -16,11 +16,9 @@ export function ChallangerBox(){
         resetChallange()
         resetCountdown()
     }
-
-    // definir classe para mostrar ou esconder caso esteja no desk ou mobile
-    // adicionar classe ao container ao finalizar novo desafio
+    
     return(
-        <div className={ `${styles.challangerBoxContainer}` }>
+        <div className={ `${styles.challangerBoxContainer} ${displayMobile}` }>
             { activeChallenge ?(
                 <div className={styles.challangeActive}>
                     <header>Ganhe {activeChallenge.amount}xp</header>

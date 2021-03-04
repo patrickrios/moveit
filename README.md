@@ -1,4 +1,4 @@
-# Moveit
+<img src="https://ik.imagekit.io/lrjseyuxi3m/readme/Moveit-cover-min_46zgNRLBd6.png">
 ---
 ## Índice
 - [Sobre](#-sobre)
@@ -20,10 +20,21 @@ Para **cativar** ainda mais o usuário, o **moveit** possui um sistema de **expe
 - HTML/CSS
 
 ## Como funciona?
-- Iniciando um clico
-- Ao completar você recebe um desafio
-- Caso você completar como avança seu nível
-- Caso falhe, inicie um novo ciclo
+- **Iniciando** um novo **ciclo**
+    <br/>
+    <img src="https://ik.imagekit.io/lrjseyuxi3m/readme/Iniciar-ciclo_ksBhlyqYMW.gif" height="350px">
+
+- Ao **completar** um **ciclo** você recebe um **desafio**
+    <br/>
+    <img src="https://ik.imagekit.io/lrjseyuxi3m/readme/Novo-desafio_CJq4kb5HKr.gif" height="350px">
+
+- Caso você **completar** o **desafio**, ganha **experiência** e avança seu **nível**
+    <br/>
+    <img src="https://ik.imagekit.io/lrjseyuxi3m/readme/Desafio-completo_Al7kuOvBjg.gif" height="350px">
+
+- Caso **falhe**, inicie um **novo ciclo**
+    <br/>
+    <img src="https://ik.imagekit.io/lrjseyuxi3m/readme/Desafio-falho_1yvbjTokbD.gif" height="350px">
 
 ## Baixar o projeto
 ```bash
@@ -44,3 +55,7 @@ Para **cativar** ainda mais o usuário, o **moveit** possui um sistema de **expe
 ```
 
 ## Agradecimentos
+Este projeto foi desenvolvido durante a semana NLW4 promovido pela [Rocketseat](https://rocketseat.com.br/).
+
+[<img src="https://avatars.githubusercontent.com/u/2254731?s=460&u=4fcc8ca9672eeb41ea800271831b7c687bc17054&v=4" width=115 > <br> <sub> Diego Fernandes (Instrutor) </sub>](https://github.com/diego3g) | [<img src="https://avatars.githubusercontent.com/u/28929274?s=200&v=4" width=115 > <br> <sub> Rocketseat (Plataforma) </sub>](https://github.com/Rocketseat) |
+| :---: | :---: |
