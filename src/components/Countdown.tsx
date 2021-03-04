@@ -58,6 +58,7 @@ export function Countdown(){
                             className={styles.startCountdown}
                         >
                             Iniciar ciclo
+                            <img src="/icons/play_arrow.svg" alt="Iniciar ciclo"/>
                         </button>
                     )
                 )

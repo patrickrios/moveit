@@ -3,6 +3,7 @@ import { ExperienceBar } from '../components/ExperienceBar'
 import { Profile } from '../components/Profile'
 import { CompletedChallanger } from '../components/CompletedChallanger'
 import { Countdown } from '../components/Countdown'
+import { Footer }  from '../components/Footer'
 
 import Head from 'next/head'
 
@@ -34,7 +35,7 @@ export default function Home( props: HomeProps) {
 
         <CountdownProvider>
           <section>
-            <div className="">
+            <div>
               <Profile />
               <CompletedChallanger />
               <Countdown />
@@ -45,6 +46,7 @@ export default function Home( props: HomeProps) {
             </div>
           </section>
         </CountdownProvider>
+        <Footer />
       </div>
     </ChallengesProvider>
   )

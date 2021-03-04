@@ -96,7 +96,7 @@ export function ChallengesProvider( {
     useEffect( () => {
         Cookies.set('level', String(level))
         Cookies.set('currentExperience', String(currentExperience))
-        Cookies.set('challangesCompleted', challengesCompleted)
+        Cookies.set('challengesCompleted', String(challengesCompleted))
     }, [level, currentExperience, challengesCompleted ])
 
     return(

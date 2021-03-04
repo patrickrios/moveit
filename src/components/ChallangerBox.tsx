@@ -1,4 +1,4 @@
-import { useContext } from 'react'
+import { useContext,useEffect,useState } from 'react'
 import { ChallengesContext } from '../contexts/ChallangesContext'
 import { CountdownContext } from '../contexts/CountdownContext'
 import styles from '../styles/components/ChallangerBox.module.css'
@@ -17,8 +17,10 @@ export function ChallangerBox(){
         resetCountdown()
     }
 
+    // definir classe para mostrar ou esconder caso esteja no desk ou mobile
+    // adicionar classe ao container ao finalizar novo desafio
     return(
-        <div className={styles.challangerBoxContainer}>
+        <div className={ `${styles.challangerBoxContainer}` }>
             { activeChallenge ?(
                 <div className={styles.challangeActive}>
                     <header>Ganhe {activeChallenge.amount}xp</header>
@@ -45,7 +47,7 @@ export function ChallangerBox(){
                     </footer>
                 </div>
                 ):(
-                <div className="challangerNotActive">
+                <div className={styles.challangerNotActive}>
                     <strong>Finalize um ciclo para receber desafios a serem completados</strong>
                     <p>
                         <img src="icons/level-up.svg" alt="Level up"/>

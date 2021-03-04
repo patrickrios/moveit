@@ -11,12 +11,17 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+
+    position: absolute;
+    top:0;
+    left:0;
 }
 
 .challangerNotActive{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .challangerNotActive strong{
@@ -31,8 +36,8 @@
     align-items: center;
     line-height: 1.4;
     max-width: 70%;
-    margin-top: 3rem;
-}
+    margin-top: 2rem; 
+} 
 
 
 .challangerNotActive img{
@@ -106,4 +111,17 @@
 
 .challangeActive footer button:hover{
     filter: brightness(.9);
+}
+
+.challengeToggleMobile{
+    display: none;
+}
+ 
+@media (min-width: 768px){
+    .challangerBoxContainer{
+        position: relative;
+    }
+    .challengeToggleMobile{
+        display: block;
+    }
 }

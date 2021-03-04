@@ -13,8 +13,13 @@ export function ExperienceBar(){
         <header className={styles.experienceBar}>
             <span>0 xp</span>
             <div>
-                <div style={{width: `${percentToNextLevel}%`}} />
-                <span style={{left: `${percentToNextLevel}%`}} className={styles.currentExperience}>{currentExperience} xp</span>
+                <span 
+                    style={{left: `${percentToNextLevel}%`}} 
+                    className={styles.currentExperience}>
+                    <img src="/icons/exp-up.svg" alt="Current experience"/>
+                    {currentExperience} xp
+                </span>
+                <div style={{width: `${percentToNextLevel}%`}} />                
             </div>
             <span>{experienceToNextLevel} xp</span>
         </header>
