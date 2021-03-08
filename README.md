@@ -1,19 +1,23 @@
 <img src="https://ik.imagekit.io/lrjseyuxi3m/readme/Moveit-cover-min_46zgNRLBd6.png">
 
+<a href="https://moveit-patrickrios.vercel.app/">
+Acessar demonstração
+</a>
+
 ---
-## Sobre 📝
+## 📝 Sobre
 É comum **desenvolvedores** em geral, passarem longas jornadas sentados à **frente** de seus **computadores**. <br/>
 Esta prática pode se tornar um **problema**, caso o indivíduo não dê **pequenas pausas**, para descansar tanto seu **corpo** quanto sua **mente**. <br/>
 O **moveit** é um **web app**, que propõe pequenos e rápidos **desafios**, em um determinado **intervalo de tempo**.<br/>
 Para **cativar** ainda mais o usuário, o **moveit** possui um sistema de **experiência** e **níveis**, simulando um **jogo de RPG**.
 
-## Tecnologias 🚀
+## 🚀 Tecnologias
 - ReactJS
 - Next.js
 - TypeScript
 - HTML/CSS
 
-## Como funciona? 🤳
+## Como funciona?
 - **Iniciando** um novo **ciclo**.
     <br/>
     <img src="https://ik.imagekit.io/lrjseyuxi3m/readme/Iniciar-ciclo_ksBhlyqYMW.gif" height="350px">
@@ -30,7 +34,7 @@ Para **cativar** ainda mais o usuário, o **moveit** possui um sistema de **expe
     <br/>
     <img src="https://ik.imagekit.io/lrjseyuxi3m/readme/Desafio-falho_1yvbjTokbD.gif" height="350px">
 
-## Baixar o projeto 📦
+## 📦 Baixar o projeto
 ```bash
     # Baixando o projeto
     $ git clone https://github.com/patrickrios/moveit
